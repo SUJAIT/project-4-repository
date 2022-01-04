@@ -12,6 +12,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .container {
@@ -37,6 +38,24 @@ button {
 }
 
 .top-banner {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.buttan {
+    text-decoration: none;
+    background-image: linear-gradient(coral, orange);
+    padding: 10px 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dream {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
